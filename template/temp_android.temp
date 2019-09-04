@@ -1,0 +1,23 @@
+{{HEADER_START}}
+//                    _    _   _ _
+//__      _____  _ __| | _| |_(_) | ___
+//\ \ /\ / / _ \| '__| |/ / __| | |/ _ \
+// \ V  V / (_) | |  |   <| |_| | |  __/
+//  \_/\_/ \___/|_|  |_|\_\\__|_|_|\___|
+package com.worktile.kernel.network;
+
+/**
+ * Copyright © 2013-2019 Worktile. All Rights Reserved.
+ *
+ * @author : liboxin
+ * @date : 2019-09-04
+ * Email: liboxin@worktile.com
+ * Time: 17:16
+ * Desc:
+ */
+{{HEADER_END}}
+enum class {{ROOT}}(val code:Int) {
+ {{CONTENT_START}}
+      {{KEY}}({{VALUE}}),
+ {{CONTENT_END}}
+}

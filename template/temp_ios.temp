@@ -1,0 +1,22 @@
+{{HEADER_START}}
+//                    _    _   _ _
+//__      _____  _ __| | _| |_(_) | ___
+//\ \ /\ / / _ \| '__| |/ / __| | |/ _ \
+// \ V  V / (_) | |  |   <| |_| | |  __/
+//  \_/\_/ \___/|_|  |_|\_\\__|_|_|\___|
+package com.worktile.kernel.network;
+
+/**
+ * Copyright © 2013-2019 Worktile. All Rights Reserved.
+ *
+ * @author : 沙雕
+ * @date : 2019-09-04
+ * Time: 17:16
+ * Desc:
+ */
+{{HEADER_END}}
+enum {{ROOT}}: Int {
+ {{CONTENT_START}}
+      case {{KEY}} = {{VALUE}}
+ {{CONTENT_END}}
+}
